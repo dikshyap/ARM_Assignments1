@@ -2,9 +2,9 @@
 	 PRESERVE8     
 	 THUMB
      AREA     appcode1, CODE, READONLY
-;     EXPORT __main
+     EXPORT __main
 	 ENTRY 
-;__main  FUNCTION
+__main  FUNCTION
 	
 	MOV R0,#36
 	MOV R2, #2
@@ -16,5 +16,5 @@
 	MOVNE R2,#0;EVEN
 	
 stop B stop ; stop program
-;   ENDFUNC
+   ENDFUNC
      END
